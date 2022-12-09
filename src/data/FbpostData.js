@@ -4,7 +4,12 @@ const fbPostData = [
       "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
     username: "XYZ",
     text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quam doloribus fugit cupiditate repellendus earum amet quisquam aliquam nostrum veritatis? At, voluptas. Minima cum officia laborum, labore laboriosam nam architecto.",
-    images: [],
+    images: [
+      "https://images.pexels.com/photos/4939446/pexels-photo-4939446.jpeg",
+      "https://images.pexels.com/photos/12118816/pexels-photo-12118816.jpeg",
+      "https://images.pexels.com/photos/14481208/pexels-photo-14481208.jpeg",
+      "https://images.pexels.com/photos/13368973/pexels-photo-13368973.jpeg",
+    ],
     date: 20221027,
   },
   {

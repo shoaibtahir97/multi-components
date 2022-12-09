@@ -2,6 +2,7 @@ import "./Ads.css";
 import { AiOutlineLike } from "react-icons/ai";
 import { RiShareForwardLine } from "react-icons/ri";
 import { FaRegCommentAlt } from "react-icons/fa";
+import { FbImageLibrary } from "react-fb-image-grid";
 
 function Ads({ data }) {
   // const { fbPostData } = props;
@@ -23,6 +24,7 @@ function Ads({ data }) {
             </div>
             <div>
               <p className='post-body'>{item.text}</p>
+              <FbImageLibrary images={data.images} />
             </div>
             <div className='response'>
               <div className='likes'></div>
